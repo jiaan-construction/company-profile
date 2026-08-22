@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>JIA AN Construction Pte. Ltd.</title>
+<meta name="description" content="Tower crane operators and lifting crew for Singapore construction sites. UEN 202204260G. bizSAFE Level 3.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#12305B; --navy-d:#0B1F3D; --navy-l:#2C4E7E;
+  --ink:#16202E; --ink-2:#4A5769; --ink-3:#78859A;
+  --ground:#FFFFFF; --ground-2:#F4F6F9; --rule:#DCE2EA;
+  --ok:#1E5A3C; --warn:#8C5A20;
+  --serif:"Source Serif 4",Georgia,"Songti SC",serif;
+  --sans:Inter,-apple-system,"PingFang SC","Hiragino Sans GB",sans-serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--ground);color:var(--ink);
+     font:400 16px/1.65 var(--sans);overflow-x:hidden}
+
+/* ── 信头 ── */
+.head{background:var(--navy-d);color:#fff;padding:44px 24px 38px}
+.head .in{max-width:860px;margin:0 auto}
+.head h1{font:600 clamp(26px,5vw,40px)/1.15 var(--serif);margin:0 0 10px;
+         letter-spacing:.01em;text-wrap:balance}
+.head .tag{font-size:clamp(15px,2.4vw,18px);color:#C6D4E8;margin:0 0 4px}
+.head .tag-zh{font-size:15px;color:#8FA6C4;margin:0 0 20px}
+.head .meta{font-size:13px;color:#8FA6C4;letter-spacing:.04em;
+            border-top:1px solid rgba(255,255,255,.16);padding-top:16px}
+.rule{height:4px;background:linear-gradient(90deg,var(--navy) 0 62%,var(--navy-l) 62%)}
+
+/* ── 数字条 ── */
+.stats{background:var(--ground-2);border-bottom:1px solid var(--rule);padding:22px 24px}
+.stats .in{max-width:860px;margin:0 auto;display:grid;
+           grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:18px}
+.stat b{display:block;font:700 26px/1.1 var(--sans);color:var(--navy);
+        font-variant-numeric:tabular-nums}
+.stat span{font-size:12.5px;color:var(--ink-2);letter-spacing:.02em}
+
+/* ── 导航 ── */
+nav{position:sticky;top:0;z-index:9;background:rgba(255,255,255,.96);
+    backdrop-filter:blur(8px);border-bottom:1px solid var(--rule)}
+nav .in{max-width:860px;margin:0 auto;display:flex;gap:4px;
+        padding:0 24px;overflow-x:auto;scrollbar-width:none}
+nav .in::-webkit-scrollbar{display:none}
+nav button{flex:0 0 auto;background:none;border:0;border-bottom:2px solid transparent;
+           padding:14px 12px;font:500 14.5px var(--sans);color:var(--ink-2);
+           cursor:pointer;white-space:nowrap}
+nav button:hover{color:var(--navy)}
+nav button[aria-selected=true]{color:var(--navy);border-bottom-color:var(--navy);font-weight:600}
+nav button:focus-visible{outline:2px solid var(--navy);outline-offset:-2px}
+
+/* ── 正文 ── */
+main{max-width:860px;margin:0 auto;padding:8px 24px 72px}
+section[hidden]{display:none}
+h2{font:600 clamp(20px,3.4vw,26px)/1.3 var(--serif);color:var(--navy);
+   margin:44px 0 14px;text-wrap:balance}
+h3{font:600 17px/1.4 var(--sans);margin:32px 0 10px;color:var(--ink)}
+h4{font:600 15px/1.4 var(--sans);margin:24px 0 8px;color:var(--ink-2)}
+section > h2:first-child{margin-top:28px}
+p{margin:0 0 15px;max-width:66ch}
+ul{margin:0 0 16px;padding-left:20px;max-width:66ch}
+li{margin-bottom:7px}
+a{color:var(--navy);text-underline-offset:2px}
+strong{font-weight:600}
+code{background:var(--ground-2);border:1px solid var(--rule);border-radius:4px;
+     padding:1px 5px;font-size:.88em;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+hr{border:0;border-top:1px solid var(--rule);margin:36px 0}
+blockquote{margin:0 0 18px;padding:14px 18px;background:var(--ground-2);
+           border-left:3px solid var(--navy-l);border-radius:0 4px 4px 0;
+           color:var(--ink-2);font-size:15px;max-width:66ch}
+blockquote strong{color:var(--ink)}
+.tw{overflow-x:auto;margin:0 0 20px;border:1px solid var(--rule);border-radius:6px}
+table{border-collapse:collapse;width:100%;font-size:14.5px}
+th,td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--rule);
+      vertical-align:top}
+th{background:var(--ground-2);font-weight:600;color:var(--navy);
+   font-size:13px;letter-spacing:.02em;white-space:nowrap}
+tbody tr:last-child td{border-bottom:0}
+td:first-child{font-variant-numeric:tabular-nums}
+
+/* ── 页脚 ── */
+footer{background:var(--navy-d);color:#C6D4E8;padding:38px 24px;font-size:14.5px}
+footer .in{max-width:860px;margin:0 auto}
+footer b{color:#fff;font-size:16px}
+footer a{color:#9FC0EA}
+footer .fine{margin-top:20px;padding-top:16px;font-size:12.5px;color:#7B90AE;
+             border-top:1px solid rgba(255,255,255,.14)}
+@media print{nav,.stats{display:none}section[hidden]{display:block!important}}
+</style>
+</head>
+<body>
+
+<header class="head">
+  <div class="in">
+    <h1>JIA AN CONSTRUCTION PTE. LTD.</h1>
+    <p class="tag">Tower crane operators and lifting crew for Singapore construction sites</p>
+    <p class="tag-zh">新加坡塔吊司机与吊装班组供应</p>
+    <p class="meta">UEN 202204260G　·　Incorporated 8 February 2022　·　bizSAFE Level 3</p>
+  </div>
+</header>
+<div class="rule"></div>
+
+<div class="stats"><div class="in">
+  <div class="stat"><b>20</b><span>project sites since 2022</span></div>
+  <div class="stat"><b>12</b><span>main contractors</span></div>
+  <div class="stat"><b>13</b><span>of 20 sites are repeat clients</span></div>
+  <div class="stat"><b>48</b><span>cranes — as counted May 2026</span></div>
+</div></div>
+
+<nav><div class="in" role="tablist">
+  <button role="tab" aria-selected="true"  data-t="en">Company Profile</button>
+  <button role="tab" aria-selected="false" data-t="zh">公司简介（中文）</button>
+  <button role="tab" aria-selected="false" data-t="track">Track Record</button>
+  <button role="tab" aria-selected="false" data-t="certs">Certifications</button>
+</div></nav>
+
+<main>
+  <section id="en"><!--EN--></section>
+  <section id="zh" hidden><!--ZH--></section>
+  <section id="track" hidden><!--TRACK--></section>
+  <section id="certs" hidden><!--CERTS--></section>
+</main>
+
+<footer><div class="in">
+  <b>Mr. Jason Lan</b><br>
+  +65 8546 1360　·　<a href="mailto:jiaanjason1360@gmail.com">jiaanjason1360@gmail.com</a><br>
+  1 North Bridge Road, #06-17 High Street Centre, Singapore 179094
+  <div class="fine">
+    Documents last verified 22 August 2026. Certificate copies available on request.<br>
+    Source: <a href="https://github.com/jiaan-construction/company-profile">github.com/jiaan-construction/company-profile</a>
+  </div>
+</div></footer>
+
+<script>
+(function(){
+  var tabs=[].slice.call(document.querySelectorAll('nav button'));
+  function show(id){
+    tabs.forEach(function(b){
+      var on=b.dataset.t===id;
+      b.setAttribute('aria-selected',on);
+      document.getElementById(b.dataset.t).hidden=!on;
+    });
+    if(history.replaceState)history.replaceState(null,'','#'+id);
+  }
+  tabs.forEach(function(b){b.addEventListener('click',function(){show(b.dataset.t);window.scrollTo({top:0});});});
+  var h=(location.hash||'').slice(1);
+  if(h&&document.getElementById(h))show(h);
+})();
+</script>
+</body>
+</html>

@@ -5,6 +5,8 @@ UEN 202204260G · Incorporated 8 February 2022 · bizSAFE Level 3
 
 ---
 
+**Web version: https://jiaan-construction.github.io/company-profile/**
+
 ## Company information
 
 | | |
@@ -37,3 +39,7 @@ Since February 2022: **20 project sites, 12 main contractors, and 13 of those si
 ---
 
 *Documents last verified 22 August 2026. Certificate copies available on request.*
+
+---
+
+<sub>**Maintaining this repo** — the four Markdown files are the source. `index.html` is generated from them: edit the Markdown, run `python3 build.py` (standard library only, no dependencies), and commit both. Editing `index.html` by hand will be overwritten on the next build.</sub>

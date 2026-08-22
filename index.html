@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>JIA AN Construction Pte. Ltd.</title>
+<meta name="description" content="Tower crane operators and lifting crew for Singapore construction sites. UEN 202204260G. bizSAFE Level 3.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#12305B; --navy-d:#0B1F3D; --navy-l:#2C4E7E;
+  --ink:#16202E; --ink-2:#4A5769; --ink-3:#78859A;
+  --ground:#FFFFFF; --ground-2:#F4F6F9; --rule:#DCE2EA;
+  --ok:#1E5A3C; --warn:#8C5A20;
+  --serif:"Source Serif 4",Georgia,"Songti SC",serif;
+  --sans:Inter,-apple-system,"PingFang SC","Hiragino Sans GB",sans-serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--ground);color:var(--ink);
+     font:400 16px/1.65 var(--sans);overflow-x:hidden}
+
+/* ── 信头 ── */
+.head{background:var(--navy-d);color:#fff;padding:44px 24px 38px}
+.head .in{max-width:860px;margin:0 auto}
+.head h1{font:600 clamp(26px,5vw,40px)/1.15 var(--serif);margin:0 0 10px;
+         letter-spacing:.01em;text-wrap:balance}
+.head .tag{font-size:clamp(15px,2.4vw,18px);color:#C6D4E8;margin:0 0 4px}
+.head .tag-zh{font-size:15px;color:#8FA6C4;margin:0 0 20px}
+.head .meta{font-size:13px;color:#8FA6C4;letter-spacing:.04em;
+            border-top:1px solid rgba(255,255,255,.16);padding-top:16px}
+.rule{height:4px;background:linear-gradient(90deg,var(--navy) 0 62%,var(--navy-l) 62%)}
+
+/* ── 数字条 ── */
+.stats{background:var(--ground-2);border-bottom:1px solid var(--rule);padding:22px 24px}
+.stats .in{max-width:860px;margin:0 auto;display:grid;
+           grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:18px}
+.stat b{display:block;font:700 26px/1.1 var(--sans);color:var(--navy);
+        font-variant-numeric:tabular-nums}
+.stat span{font-size:12.5px;color:var(--ink-2);letter-spacing:.02em}
+
+/* ── 导航 ── */
+nav{position:sticky;top:0;z-index:9;background:rgba(255,255,255,.96);
+    backdrop-filter:blur(8px);border-bottom:1px solid var(--rule)}
+nav .in{max-width:860px;margin:0 auto;display:flex;gap:4px;
+        padding:0 24px;overflow-x:auto;scrollbar-width:none}
+nav .in::-webkit-scrollbar{display:none}
+nav button{flex:0 0 auto;background:none;border:0;border-bottom:2px solid transparent;
+           padding:14px 12px;font:500 14.5px var(--sans);color:var(--ink-2);
+           cursor:pointer;white-space:nowrap}
+nav button:hover{color:var(--navy)}
+nav button[aria-selected=true]{color:var(--navy);border-bottom-color:var(--navy);font-weight:600}
+nav button:focus-visible{outline:2px solid var(--navy);outline-offset:-2px}
+
+/* ── 正文 ── */
+main{max-width:860px;margin:0 auto;padding:8px 24px 72px}
+section[hidden]{display:none}
+h2{font:600 clamp(20px,3.4vw,26px)/1.3 var(--serif);color:var(--navy);
+   margin:44px 0 14px;text-wrap:balance}
+h3{font:600 17px/1.4 var(--sans);margin:32px 0 10px;color:var(--ink)}
+h4{font:600 15px/1.4 var(--sans);margin:24px 0 8px;color:var(--ink-2)}
+section > h2:first-child{margin-top:28px}
+p{margin:0 0 15px;max-width:66ch}
+ul{margin:0 0 16px;padding-left:20px;max-width:66ch}
+li{margin-bottom:7px}
+a{color:var(--navy);text-underline-offset:2px}
+strong{font-weight:600}
+code{background:var(--ground-2);border:1px solid var(--rule);border-radius:4px;
+     padding:1px 5px;font-size:.88em;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+hr{border:0;border-top:1px solid var(--rule);margin:36px 0}
+blockquote{margin:0 0 18px;padding:14px 18px;background:var(--ground-2);
+           border-left:3px solid var(--navy-l);border-radius:0 4px 4px 0;
+           color:var(--ink-2);font-size:15px;max-width:66ch}
+blockquote strong{color:var(--ink)}
+.tw{overflow-x:auto;margin:0 0 20px;border:1px solid var(--rule);border-radius:6px}
+table{border-collapse:collapse;width:100%;font-size:14.5px}
+th,td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--rule);
+      vertical-align:top}
+th{background:var(--ground-2);font-weight:600;color:var(--navy);
+   font-size:13px;letter-spacing:.02em;white-space:nowrap}
+tbody tr:last-child td{border-bottom:0}
+td:first-child{font-variant-numeric:tabular-nums}
+
+/* ── 页脚 ── */
+footer{background:var(--navy-d);color:#C6D4E8;padding:38px 24px;font-size:14.5px}
+footer .in{max-width:860px;margin:0 auto}
+footer b{color:#fff;font-size:16px}
+footer a{color:#9FC0EA}
+footer .fine{margin-top:20px;padding-top:16px;font-size:12.5px;color:#7B90AE;
+             border-top:1px solid rgba(255,255,255,.14)}
+@media print{nav,.stats{display:none}section[hidden]{display:block!important}}
+</style>
+</head>
+<body>
+
+<header class="head">
+  <div class="in">
+    <h1>JIA AN CONSTRUCTION PTE. LTD.</h1>
+    <p class="tag">Tower crane operators and lifting crew for Singapore construction sites</p>
+    <p class="tag-zh">新加坡塔吊司机与吊装班组供应</p>
+    <p class="meta">UEN 202204260G　·　Incorporated 8 February 2022　·　bizSAFE Level 3</p>
+  </div>
+</header>
+<div class="rule"></div>
+
+<div class="stats"><div class="in">
+  <div class="stat"><b>20</b><span>project sites since 2022</span></div>
+  <div class="stat"><b>12</b><span>main contractors</span></div>
+  <div class="stat"><b>13</b><span>of 20 sites are repeat clients</span></div>
+  <div class="stat"><b>48</b><span>cranes — as counted May 2026</span></div>
+</div></div>
+
+<nav><div class="in" role="tablist">
+  <button role="tab" aria-selected="true"  data-t="en">Company Profile</button>
+  <button role="tab" aria-selected="false" data-t="zh">公司简介（中文）</button>
+  <button role="tab" aria-selected="false" data-t="track">Track Record</button>
+  <button role="tab" aria-selected="false" data-t="certs">Certifications</button>
+</div></nav>
+
+<main>
+  <section id="en"><h2>What we actually do</h2>
+<p>We put MOM-registered tower crane operators on your site and keep them there.</p>
+<p>That is the business. Not a side line, not one of five services — it is the whole company. When a main contractor has cranes standing on a project and needs them run properly, on the shift pattern the programme demands, that is the call we take.</p>
+<p>Where the scope includes it, we also handle erection, climbing and dismantling, routine maintenance and breakdown response, and we supply riggers and signalmen alongside the operators.</p>
+<p><strong>One thing we are upfront about:</strong> on most of our projects the cranes belong to the main contractor. We are not a plant hire company and we don't market ourselves as one. What we bring is the crew, the shift cover, and the compliance paperwork that keeps MOM and your site safety team satisfied.</p>
+<h2>Since February 2022</h2>
+<ul><li><strong>20 project sites</strong> across Singapore, 19 of them still running.</li><li><strong>12 main contractors</strong>, from Chinese state-owned builders to local HDB specialists.</li><li><strong>13 of those 20 sites are with contractors who came back to us</strong> — CHEC five times, Weima Builders four, LC&amp;T twice, Chip Eng Seng twice.</li></ul>
+<p>That last number is the one we would point at. In this trade, contractors change crane crews when the crew doesn't turn up. Ours do.</p>
+<p>At our last full count, in May 2026, we were running <strong>48 cranes across 15 sites</strong>. The site list has grown since and we have not re-counted — so we give you the date with the number rather than round it up. Operator strength is around 50, as at August 2026.</p>
+<h2>Sectors we've worked in</h2>
+<div class="tw"><table>
+<thead><tr><th>Sector</th><th>Examples</th></tr></thead>
+<tbody>
+<tr><td>HDB / BTO housing</td><td>Ghim Moh Contract 9, Jurong East N2C24, Woodlands N1C31, Holland Drive</td></tr>
+<tr><td>Water &amp; port infrastructure</td><td>Tuas WRP DTSS Phase 2 — Contracts C2A, C3C, C4A, C6A</td></tr>
+<tr><td>CBD high-rise</td><td>8 Shenton Way (Skywaters Residences), 15 Enggor Street, 1 Sophia Road</td></tr>
+<tr><td>Industrial &amp; factory</td><td>Sunview Way, Pioneer Turn, 43 Jalan Pemimpin, Prima Flour Mill, Jurong Island</td></tr>
+<tr><td>Institutional &amp; conservation</td><td>Jurong Pioneer Junior College, Golden Mile Complex</td></tr>
+</tbody></table></div>
+<p>Full project list: <a href="#track-record">Track-Record.md</a></p>
+<h2>How we run a site</h2>
+<p><strong>Shift cover that holds.</strong> Day, night, or 24-hour rotation. We currently run night shift and round-the-clock rotations on several projects — that is not a one-off arrangement we're describing, it's the normal operating pattern for part of our crew.</p>
+<p><strong>Same-day replacement.</strong> Operators get sick, take leave, go home on emergency. We keep relief operators who already know the machines and hold the right certificates, so the crane doesn't stand idle waiting for a name to be cleared.</p>
+<p><strong>One person to call.</strong> You are not routed through a call centre. Site issues, shift changes, timecard disputes — one number, and it gets picked up.</p>
+<p><strong>Paperwork that survives an audit.</strong> Every operator is MOM-registered for the machine they're on. Timecards are signed on site and reconciled monthly against your records before we raise anything. Where we've handled erection and maintenance, inspection and service logs stay with the site file.</p>
+<p><strong>Safety, run with your team not against it.</strong> bizSAFE Level 3. Site-specific lifting arrangements agreed with your competent person, daily pre-start checks, toolbox briefings, PPE and rigging gear control, wind-speed cut-off discipline, and anti-collision planning where cranes overlap. We work to your HSE team's permit-to-work system, not a parallel one of our own.</p>
+<h2>Registrations &amp; insurance</h2>
+<div class="tw"><table>
+<thead><tr><th></th><th>Reference</th><th>Valid to</th></tr></thead>
+<tbody>
+<tr><td>bizSAFE Level 3 — WSH Council</td><td>Cert. E43636</td><td>22 Oct 2026</td></tr>
+<tr><td>BCA Registered Contractor — CR01 Minor Construction Works</td><td>Single Grade</td><td>1 Nov 2028</td></tr>
+<tr><td>SCAL / SLOTS — CS08 Structural Steel Work</td><td>Cert. 23/SM/0367</td><td>31 Oct 2028</td></tr>
+<tr><td>Work Injury Compensation — China Taiping Insurance (Singapore)</td><td>Policy DWCASNA00003152601</td><td>31 Jan 2027</td></tr>
+</tbody></table></div>
+<p>We do not hold ISO 9001, 14001 or 45001. We'd rather say so than let a form imply otherwise. Quality control on our side runs on two things: only MOM-registered operators go on a machine, and every crane we maintain carries its own service and inspection record.</p>
+<p>Details and certificate copies: <a href="#certifications">Certifications.md</a></p>
+<h2>Company details</h2>
+<div class="tw"><table>
+<tbody>
+<tr><td>Registered name</td><td>JIA AN CONSTRUCTION PTE. LTD.</td></tr>
+<tr><td>UEN</td><td>202204260G</td></tr>
+<tr><td>Entity type</td><td>Exempt Private Company Limited by Shares</td></tr>
+<tr><td>Incorporated</td><td>8 February 2022</td></tr>
+<tr><td>Principal activity</td><td>General Contractors — Building Construction incl. Major Upgrading Works (SSIC 41001)</td></tr>
+<tr><td>Secondary activity</td><td>Other Specialised Construction Activities N.E.C. (SSIC 43909)</td></tr>
+<tr><td>Registered office</td><td>1 North Bridge Road, #06-17 High Street Centre, Singapore 179094</td></tr>
+<tr><td>Banker</td><td>Maybank Singapore Limited — Clementi Branch (SWIFT MBBESGS2)</td></tr>
+</tbody></table></div>
+<h2>Talk to us</h2>
+<p><strong>Mr. Jason Lan</strong><br>+65 8546 1360 · jiaanjason1360@gmail.com<br>jiaanconstruction.com</p>
+<p>If you have cranes going up and no crew lined up, call. We'll tell you straight whether we can cover it.</p></section>
+  <section id="zh" hidden><h2>我们做什么</h2>
+<p><strong>给工地派塔吊司机，并且保证人一直在。</strong></p>
+<p>就这一件事。不是我们业务里的一块，是全部。总包的塔吊立起来了，需要有证的人开、需要按工期排班——这时候找我们。</p>
+<p>合同范围里有的话，塔吊的<strong>安装、顶升、拆卸、日常保养和故障响应</strong>我们也接，另外可以配套派<strong>起重工和信号工</strong>。</p>
+<p><strong>有一句话我们先讲清楚</strong>：大部分项目上，塔吊是总包的设备，不是我们的。我们不是设备租赁公司，也不打算包装成设备租赁公司。我们出的是人、是班次、是能过 MOM 和安全部门那一关的手续。</p>
+<h2>2022 年 2 月到现在</h2>
+<ul><li>做过 <strong>20 个工地</strong>，其中 19 个还在跑。</li><li>服务过 <strong>12 家总包</strong>，中资央企和本地 HDB 专业户都有。</li><li><strong>20 个工地里有 13 个，是同一家总包第二次以上找我们</strong>——中国港湾 5 次、威马 4 次、LC&amp;T 2 次、Chip Eng Seng 2 次。</li></ul>
+<p>最后那个数字是我们自己最看重的。这一行换班组很快，人不到位就换掉了。我们的人到位。</p>
+<p>最近一次完整清点是 2026 年 5 月，当时是 <strong>15 个工地、48 台塔吊</strong>。之后工地数还在涨，我们没再重新点过——所以这个数字我们连日期一起给，不四舍五入往上凑。司机人数约 50 人（2026 年 8 月）。</p>
+<h2>做过的类型</h2>
+<div class="tw"><table>
+<thead><tr><th>类型</th><th>项目</th></tr></thead>
+<tbody>
+<tr><td>组屋 / BTO</td><td>Ghim Moh C9、裕廊东 N2C24、乌兰 N1C31、Holland Drive</td></tr>
+<tr><td>水务与港口基建</td><td>大士水厂 DTSS 二期 C2A、C3C、C4A、C6A</td></tr>
+<tr><td>市区超高层</td><td>8 Shenton Way（Skywaters Residences）、15 Enggor Street、1 Sophia Road</td></tr>
+<tr><td>工业与厂房</td><td>Sunview Way、先驱 Pioneer Turn、43 Jalan Pemimpin、Prima 面粉厂、裕廊岛</td></tr>
+<tr><td>公建与保育改造</td><td>裕廊先驱初级学院、黄金大厦 Golden Mile</td></tr>
+</tbody></table></div>
+<p>完整清单：<a href="#track-record">Track-Record.md</a></p>
+<h2>我们在现场怎么干</h2>
+<p><strong>排班排得住。</strong> 日班、夜班、24 小时轮班都做。现在手上就有几个项目是夜班和 24 小时连轴——这不是我们举的个别例子，是一部分班组的常态。</p>
+<p><strong>当天能补人。</strong> 司机会生病、会请假、会家里出事。我们养着替班司机，机型熟、证齐全，不用等临时找人清证，塔吊不会因为一个名字卡在那儿空着。</p>
+<p><strong>只找一个人就行。</strong> 不用转接。现场的事、换班的事、工卡对不上的事，一个电话，有人接。</p>
+<p><strong>手续经得起查。</strong> 每个司机在他开的那台机型上都是 MOM 注册在册的。工卡现场签，每月先和总包的记录对平了再报。做过安装保养的项目，检验和保养记录留在工地档案里。</p>
+<p><strong>安全是配合贵司做，不是另搞一套。</strong> bizSAFE Level 3。吊装方案跟贵司的 competent person 一起定，班前检查、班前会、PPE 和索具管控、风速停机纪律，多机作业的防碰撞规划。我们走贵司的动火/吊装许可体系，不会在旁边另立一套。</p>
+<h2>资质与保险</h2>
+<div class="tw"><table>
+<thead><tr><th></th><th>编号</th><th>有效期至</th></tr></thead>
+<tbody>
+<tr><td>bizSAFE Level 3（新加坡职业安全健康理事会 WSH Council）</td><td>证书号 E43636</td><td>2026-10-22</td></tr>
+<tr><td>BCA 注册承包商 CR01 Minor Construction Works（Single Grade）</td><td>—</td><td>2028-11-01</td></tr>
+<tr><td>SCAL / SLOTS 分包商注册 CS08 结构钢工程</td><td>证书号 23/SM/0367</td><td>2028-10-31</td></tr>
+<tr><td>劳工伤害赔偿保险 WICA（中国太平保险新加坡）</td><td>保单号 DWCASNA00003152601</td><td>2027-01-31</td></tr>
+</tbody></table></div>
+<p><strong>我们没有 ISO 9001 / 14001 / 45001。</strong> 与其在表格上含糊过去，不如直说。质量这块我们靠两条实的：上机的一定是 MOM 注册司机；我们负责保养的每台机都有自己的保养和检验记录。</p>
+<p>明细见 <a href="#certifications">Certifications.md</a></p>
+<h2>公司信息</h2>
+<div class="tw"><table>
+<tbody>
+<tr><td>注册名称</td><td>JIA AN CONSTRUCTION PTE. LTD.</td></tr>
+<tr><td>UEN</td><td>202204260G</td></tr>
+<tr><td>公司类型</td><td>Exempt Private Company Limited by Shares（豁免私人有限公司）</td></tr>
+<tr><td>成立日期</td><td>2022 年 2 月 8 日</td></tr>
+<tr><td>主营范围</td><td>总承包 — 房屋建筑及重大升级工程（SSIC 41001）</td></tr>
+<tr><td>副营范围</td><td>其他专项施工活动（SSIC 43909）</td></tr>
+<tr><td>注册地址</td><td>1 North Bridge Road, #06-17 High Street Centre, Singapore 179094</td></tr>
+<tr><td>开户行</td><td>Maybank Singapore Limited — Clementi 分行（SWIFT MBBESGS2）</td></tr>
+</tbody></table></div>
+<h2>联系我们</h2>
+<p><strong>Jason Lan（蓝先生）</strong><br>+65 8546 1360 ｜ jiaanjason1360@gmail.com<br>jiaanconstruction.com</p>
+<p>塔吊要起了、班组还没着落，打个电话。能不能接得住，我们会直说。</p></section>
+  <section id="track" hidden><p>Tower crane operation, erection and lifting crew supply · February 2022 – present</p>
+<p><em>Status as recorded 22 August 2026.</em></p>
+<hr>
+<h2>At a glance</h2>
+<div class="tw"><table>
+<tbody>
+<tr><td>Project sites since incorporation</td><td><strong>20</strong></td></tr>
+<tr><td>Currently running</td><td><strong>19</strong></td></tr>
+<tr><td>Main contractors served</td><td><strong>12</strong></td></tr>
+<tr><td>Sites with repeat clients</td><td><strong>13 of 20</strong></td></tr>
+<tr><td>Cranes deployed</td><td><strong>48 across 15 sites — as recorded May 2026</strong></td></tr>
+</tbody></table></div>
+<p><strong>Repeat clients</strong></p>
+<div class="tw"><table>
+<thead><tr><th>Main contractor</th><th>Sites</th></tr></thead>
+<tbody>
+<tr><td>China Harbour Engineering Company (CHEC)</td><td>5</td></tr>
+<tr><td>Weima Builders</td><td>4</td></tr>
+<tr><td>LC&amp;T Builder (1971)</td><td>2</td></tr>
+<tr><td>Chip Eng Seng group (CES_SDC / CES_SDC-Salcon JV)</td><td>2</td></tr>
+</tbody></table></div>
+<hr>
+<h2>Project list</h2>
+<div class="tw"><table>
+<thead><tr><th>#</th><th>Project</th><th>Main contractor</th><th>Sector</th><th>Scope</th><th>Since</th><th>Status</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Ghim Moh Contract 9 (Ghim Moh BTO)</td><td>Teambuild Engineering &amp; Construction</td><td>HDB / Public housing</td><td>Tower crane operation</td><td>2023</td><td>Ongoing</td></tr>
+<tr><td>2</td><td>Jurong East N2C24</td><td>LC&amp;T Builder (1971)</td><td>HDB / BTO</td><td>Tower crane supply, erection &amp; operation</td><td>2023</td><td>Ongoing</td></tr>
+<tr><td>3</td><td>Woodlands N1C31</td><td>LC&amp;T Builder (1971)</td><td>Residential / BTO</td><td>Tower crane supply, erection &amp; operation</td><td>2025</td><td>Ongoing</td></tr>
+<tr><td>4</td><td>Holland Drive BTO (Holland C1 &amp; Park)</td><td>Weima Builders</td><td>HDB / BTO</td><td>Tower crane supply, erection &amp; operation</td><td>2025</td><td>Ongoing</td></tr>
+<tr><td>5</td><td>Sunview Way Industrial Development</td><td>Weima Builders</td><td>Industrial / Warehousing</td><td>Tower crane operation, 24-hour shift</td><td>2025</td><td>Ongoing</td></tr>
+<tr><td>6</td><td>43 Jalan Pemimpin Development</td><td>Weima Builders</td><td>Industrial / Commercial</td><td>Tower crane supply, erection &amp; operation</td><td>2025</td><td>Ongoing</td></tr>
+<tr><td>7</td><td>720 Upper Changi Road (SIA Project)</td><td>Weima Builders</td><td>Aviation-related</td><td>Tower crane supply, erection &amp; operation</td><td>2025</td><td>Ongoing</td></tr>
+<tr><td>8</td><td>Pioneer Turn Industrial Project</td><td>Nippon Builders</td><td>Industrial</td><td>Tower crane operation, 24-hour shift</td><td>2025</td><td>Ongoing</td></tr>
+<tr><td>9</td><td>TWRP Contract C4A — DTSS Phase 2, Tuas</td><td>CES_SDC Pte. Ltd.</td><td>Water &amp; port infrastructure</td><td>Tower crane supply, erection &amp; operation</td><td>2022</td><td>Ongoing</td></tr>
+<tr><td>10</td><td>TWRP Contract C6A — DTSS Phase 2, Tuas</td><td>CES_SDC-Salcon Joint Venture</td><td>Water &amp; port infrastructure</td><td>Luffing crane supply, erection &amp; operation</td><td>2025</td><td>Ongoing</td></tr>
+<tr><td>11</td><td>Tuas Water Reclamation Plant Contract C3C</td><td>Sinohydro Corporation</td><td>Water &amp; port infrastructure</td><td>Tower crane supply, erection &amp; operation</td><td>2023</td><td>Ongoing</td></tr>
+<tr><td>12</td><td>TWRP Contract C2A, Tuas</td><td>China Harbour Engineering Company</td><td>Water &amp; port infrastructure</td><td>Tower crane operation, day &amp; night shift</td><td>2026</td><td>Ongoing</td></tr>
+<tr><td>13</td><td>8 Shenton Way — Skywaters Residences</td><td>China Harbour Engineering Company</td><td>CBD high-rise</td><td>Tower crane operation, night shift + day shift</td><td>2025</td><td>Ongoing</td></tr>
+<tr><td>14</td><td>15 Enggor Street mixed development</td><td>China Harbour Engineering Company</td><td>Commercial + residential</td><td>Tower crane operation</td><td>2026</td><td>Ongoing</td></tr>
+<tr><td>15</td><td>1 Sophia Road (ONE SOPHIA)</td><td>China Harbour Engineering Company</td><td>Mixed use — residential / office / retail</td><td>Tower crane operation</td><td>2026</td><td>Ongoing</td></tr>
+<tr><td>16</td><td>Prima Flour Mill Redevelopment, Jurong Port Road</td><td>China Harbour Engineering Company</td><td>Industrial / Plant</td><td>Tower crane operation, night shift</td><td>2025</td><td>Completed</td></tr>
+<tr><td>17</td><td>Golden Mile Complex, Beach Road</td><td>CRCG-CCECC Joint Venture</td><td>Commercial / Conservation redevelopment</td><td>Tower crane supply, erection &amp; operation</td><td>2025</td><td>Ongoing</td></tr>
+<tr><td>18</td><td>Jurong Pioneer Junior College</td><td>Kuan Aik Hong Construction</td><td>Institutional / Public</td><td>Tower crane operation</td><td>2026</td><td>Ongoing</td></tr>
+<tr><td>19</td><td>Jurong Island Project</td><td>CREC Construction</td><td>Industrial</td><td>Tower crane operation</td><td>—</td><td>Ongoing</td></tr>
+<tr><td>20</td><td>Bukit Batok Community Club</td><td>Ramo Industries</td><td>Public / Community</td><td>Tower crane operation</td><td>2024</td><td>Ongoing</td></tr>
+</tbody></table></div>
+<hr>
+<h2>Notes on this list</h2>
+<ul><li><strong>Start years</strong> are taken from the earliest contract, work order or claim on file. A dash means the start date has not yet been reconciled against a document — we would rather leave it blank than round it.</li><li><strong>Crane counts carry the date they were counted.</strong> Numbers move month to month as cranes climb, get dismantled or get added, so we date every figure rather than let one quietly go stale. The last full count was 48 cranes across 15 sites in May 2026; the site list has grown since and has not been re-counted. Current deployment on any specific project is confirmed on request.</li><li><strong>Operator strength:</strong> around 50 tower crane operators, as at August 2026.</li><li><strong>Contract values and rates are not published.</strong> Those belong to the contract between us and that particular contractor.</li></ul>
+<hr>
+<h2>Earlier records</h2>
+<p><strong>KSH Holdings Limited</strong> — industrial / factory project, recorded in our May 2026 project register with 4 cranes. It does not appear in the current site register, so we list it here as a past engagement rather than a live one. KSH also appears in the pre-incorporation record below (Commonwealth Avenue, MOE project), making it one of the longest-running relationships the team has.</p>
+<h2>Before JIA AN (2021–2022)</h2>
+<p>The team behind JIA AN ran tower crane crews on <strong>18 further sites</strong> before the company was incorporated, working with Tiong Seng Holding Group, China Construction (South Pacific), VICO Construction, HPC Builder, KSH Holdings, Sunray Woodcraft, Precise Development, Nanjing Dadi, Eng Seng Lee, Trinity Construction, Maestro Bee and Quek Hock Seng, among others.</p>
+<p><strong>This is team experience, not JIA AN's corporate track record</strong>, and we present it that way. Where a pre-qualification form asks for the company's own history, we answer from February 2022 onwards.</p>
+<hr>
+<p><em>Prepared 22 August 2026. Contact: Mr. Jason Lan · +65 8546 1360 · jiaanjason1360@gmail.com</em></p></section>
+  <section id="certs" hidden><h2>Current</h2>
+<h3>bizSAFE Level 3 — Workplace Safety and Health Council</h3>
+<div class="tw"><table>
+<tbody>
+<tr><td>Certificate no.</td><td><strong>E43636</strong></td></tr>
+<tr><td>Issued</td><td>23 October 2023</td></tr>
+<tr><td>Valid to</td><td><strong>22 October 2026</strong></td></tr>
+<tr><td>Signed by</td><td>Christopher Koh, General Manager, WSH Council</td></tr>
+</tbody></table></div>
+<p>bizSAFE Level 3 means our risk management plan has been assessed by an approved auditor, not merely that we attended a course. It is the minimum safety threshold most main contractors and public-sector projects require.</p>
+<h3>BCA Registered Contractor — CR01</h3>
+<div class="tw"><table>
+<tbody>
+<tr><td>Workhead</td><td><strong>CR01 Minor Construction Works</strong></td></tr>
+<tr><td>Grade</td><td>Single Grade</td></tr>
+<tr><td>Valid to</td><td><strong>1 November 2028</strong></td></tr>
+<tr><td>Listing</td><td>BCA Contractors Registry (Directory contact: +65 8546 1360)</td></tr>
+</tbody></table></div>
+<h3>SCAL / SLOTS — Singapore List of Trade Subcontractors</h3>
+<div class="tw"><table>
+<tbody>
+<tr><td>Certificate no.</td><td><strong>23/SM/0367</strong></td></tr>
+<tr><td>Trade registration</td><td><strong>CS08 — Structural Steel Work</strong></td></tr>
+<tr><td>Registered</td><td>1 November 2025</td></tr>
+<tr><td>Valid to</td><td><strong>31 October 2028</strong></td></tr>
+<tr><td>Issued by</td><td>Singapore Contractors Association Ltd</td></tr>
+</tbody></table></div>
+<p>SLOTS is administered by a board including BCA, HDB, LTA, JTC, MOM and IES, and lets us be engaged as a registered subcontractor on public-sector projects.</p>
+<h3>Work Injury Compensation Insurance</h3>
+<div class="tw"><table>
+<tbody>
+<tr><td>Insurer</td><td><strong>China Taiping Insurance (Singapore) Pte. Ltd.</strong></td></tr>
+<tr><td>Policy no.</td><td><strong>DWCASNA00003152601</strong></td></tr>
+<tr><td>Period</td><td>1 February 2026 – <strong>31 January 2027</strong></td></tr>
+<tr><td>Basis</td><td>Work Injury Compensation Act 2019</td></tr>
+</tbody></table></div>
+<p>Every worker we deploy is covered. A copy of the certificate is displayed at our place of business as the regulations require, and we can provide it for your site file on request.</p>
+<hr>
+<h2>What we do not hold</h2>
+<p><strong>ISO 9001, ISO 14001, ISO 45001 — none.</strong></p>
+<p>We would rather write that plainly than tick a box and hope nobody checks. Where a pre-qualification form asks how quality and safety are controlled in the absence of a certified management system, our answer is:</p>
+<ul><li><strong>Safety</strong> runs on the bizSAFE Level 3 framework — risk management plan, site-specific lifting arrangements, daily pre-start checks, toolbox briefings, PPE and rigging gear control, and coordination with the main contractor's HSE team.</li><li><strong>Quality</strong> runs on two hard rules: only MOM-registered operators go on a machine, and every crane under our maintenance carries its own service and inspection record.</li></ul>
+<p><strong>Product accreditation — not applicable.</strong> We are a service subcontractor, not a manufacturer.</p>
+<hr>
+<h2>Renewal calendar</h2>
+<div class="tw"><table>
+<thead><tr><th>Item</th><th>Expires</th><th>Lead time to start</th></tr></thead>
+<tbody>
+<tr><td><strong>bizSAFE Level 3</strong></td><td><strong>22 Oct 2026</strong></td><td>Audit booking + RM plan review — start at least 3 months ahead</td></tr>
+<tr><td>WICA insurance</td><td>31 Jan 2027</td><td>Renew with insurer 1 month ahead</td></tr>
+<tr><td>SLOTS CS08</td><td>31 Oct 2028</td><td>—</td></tr>
+<tr><td>BCA CR01</td><td>1 Nov 2028</td><td>—</td></tr>
+</tbody></table></div>
+<blockquote><strong>This page states our certification status as at 22 August 2026.</strong><br>bizSAFE Level 3 expires on 22 October 2026. If you are reading this after that date, ask us for the current certificate rather than relying on this page — we would rather send you the live document than have you quote a lapsed one in a submission.</blockquote>
+<hr>
+<p><em>Certificate copies are available on request. Contact: Mr. Jason Lan · +65 8546 1360 · jiaanjason1360@gmail.com</em></p></section>
+</main>
+
+<footer><div class="in">
+  <b>Mr. Jason Lan</b><br>
+  +65 8546 1360　·　<a href="mailto:jiaanjason1360@gmail.com">jiaanjason1360@gmail.com</a><br>
+  1 North Bridge Road, #06-17 High Street Centre, Singapore 179094
+  <div class="fine">
+    Documents last verified 22 August 2026. Certificate copies available on request.<br>
+    Source: <a href="https://github.com/jiaan-construction/company-profile">github.com/jiaan-construction/company-profile</a>
+  </div>
+</div></footer>
+
+<script>
+(function(){
+  var tabs=[].slice.call(document.querySelectorAll('nav button'));
+  function show(id){
+    tabs.forEach(function(b){
+      var on=b.dataset.t===id;
+      b.setAttribute('aria-selected',on);
+      document.getElementById(b.dataset.t).hidden=!on;
+    });
+    if(history.replaceState)history.replaceState(null,'','#'+id);
+  }
+  tabs.forEach(function(b){b.addEventListener('click',function(){show(b.dataset.t);window.scrollTo({top:0});});});
+  var h=(location.hash||'').slice(1);
+  if(h&&document.getElementById(h))show(h);
+})();
+</script>
+</body>
+</html>
