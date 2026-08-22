@@ -15,6 +15,7 @@ Tower crane operation, erection and lifting crew supply · February 2022 – pre
 | Currently running | **19** |
 | Main contractors served | **12** |
 | Sites with repeat clients | **13 of 20** |
+| Cranes deployed | **48 across 15 sites — as recorded May 2026** |
 
 **Repeat clients**
 
@@ -57,10 +58,15 @@ Tower crane operation, erection and lifting crew supply · February 2022 – pre
 ## Notes on this list
 
 - **Start years** are taken from the earliest contract, work order or claim on file. A dash means the start date has not yet been reconciled against a document — we would rather leave it blank than round it.
-- **Crane counts per site are deliberately not published here.** Numbers move month to month as cranes climb, get dismantled or get added, and a stale figure in a marketing document is worse than none. We will confirm current deployment for any specific project on request.
+- **Crane counts carry the date they were counted.** Numbers move month to month as cranes climb, get dismantled or get added, so we date every figure rather than let one quietly go stale. The last full count was 48 cranes across 15 sites in May 2026; the site list has grown since and has not been re-counted. Current deployment on any specific project is confirmed on request.
+- **Operator strength:** around 50 tower crane operators, as at August 2026.
 - **Contract values and rates are not published.** Those belong to the contract between us and that particular contractor.
 
 ---
+
+## Earlier records
+
+**KSH Holdings Limited** — industrial / factory project, recorded in our May 2026 project register with 4 cranes. It does not appear in the current site register, so we list it here as a past engagement rather than a live one. KSH also appears in the pre-incorporation record below (Commonwealth Avenue, MOE project), making it one of the longest-running relationships the team has.
 
 ## Before JIA AN (2021–2022)
 

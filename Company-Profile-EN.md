@@ -23,6 +23,8 @@ Where the scope includes it, we also handle erection, climbing and dismantling, 
 
 That last number is the one we would point at. In this trade, contractors change crane crews when the crew doesn't turn up. Ours do.
 
+At our last full count, in May 2026, we were running **48 cranes across 15 sites**. The site list has grown since and we have not re-counted — so we give you the date with the number rather than round it up. Operator strength is around 50, as at August 2026.
+
 ## Sectors we've worked in
 
 | Sector | Examples |
