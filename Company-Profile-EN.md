@@ -19,9 +19,9 @@ We do not currently offer crane erection, climbing, dismantling or maintenance, 
 
 ## Since February 2022
 
-- **20 project sites** across Singapore, 19 of them still running.
-- **12 main contractors**, from Chinese state-owned builders to local HDB specialists.
-- **13 of those 20 sites are with contractors who came back to us** — CHEC five times, Weima Builders four, LC&T twice, Chip Eng Seng twice.
+- **23 project sites** across Singapore, 16 of them still running.
+- **13 main contractors**, from Chinese state-owned builders to local HDB specialists.
+- **14 of those 23 sites are with contractors who came back to us** — CHEC five times, Weima Builders four, Chip Eng Seng three, LC&T twice.
 
 That last number is the one we would point at. In this trade, contractors change crane crews when the crew doesn't turn up. Ours do.
 
@@ -31,7 +31,7 @@ At our last full count, in May 2026, we were running **48 cranes across 15 sites
 
 | Sector | Examples |
 |---|---|
-| HDB / BTO housing | Ghim Moh Contract 9, Jurong East N2C24, Woodlands N1C31, Holland Drive |
+| HDB / BTO housing | Ghim Moh Contract 9, Jurong East N2C24, Woodlands N1C31, Holland Drive, Ulu Pandan |
 | Water & port infrastructure | Tuas WRP DTSS Phase 2 — Contracts C2A, C3C, C4A, C6A |
 | CBD high-rise | 8 Shenton Way (Skywaters Residences), 15 Enggor Street, 1 Sophia Road |
 | Industrial & factory | Sunview Way, Pioneer Turn, 43 Jalan Pemimpin, Prima Flour Mill, Jurong Island |

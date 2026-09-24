@@ -12,7 +12,7 @@ UEN 202204260G · Incorporated 8 February 2022 · bizSAFE Level 3
 | | |
 |---|---|
 | **Company profile** | [English](./Company-Profile-EN.md) · [中文](./公司简介_中文.md) |
-| **Project track record** | [Track-Record.md](./Track-Record.md) — 20 project sites since 2022 |
+| **Project track record** | [Track-Record.md](./Track-Record.md) — 23 project sites since 2022 |
 | **Registrations & insurance** | [Certifications.md](./Certifications.md) — bizSAFE, BCA, SLOTS, WICA |
 
 The Chinese version is written for Chinese main contractors, not translated from the English. Both describe the same company.
@@ -25,7 +25,7 @@ We put MOM-registered tower crane operators on site and keep them there. Day shi
 
 On most of our projects the cranes belong to the main contractor. We are not a plant hire company — what we bring is the crew, the shift cover, and the compliance paperwork.
 
-Since February 2022: **20 project sites, 12 main contractors, and 13 of those sites are with contractors who came back to us.**
+Since February 2022: **23 project sites, 13 main contractors, and 14 of those sites are with contractors who came back to us.**
 
 ---
 
