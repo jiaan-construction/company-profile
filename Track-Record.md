@@ -1,7 +1,7 @@
 # Project Track Record
 
 **JIA AN CONSTRUCTION PTE. LTD.** · UEN 202204260G
-Tower crane operation, erection and lifting crew supply · February 2022 – present
+Tower crane operator supply · February 2022 – present
 
 *Status as recorded 22 August 2026.*
 
@@ -57,6 +57,7 @@ Tower crane operation, erection and lifting crew supply · February 2022 – pre
 
 ## Notes on this list
 
+- **Scope is recorded as delivered.** Where a row says *erection*, we handled crane erection on that project. We no longer offer erection, climbing, dismantling or maintenance for new engagements, and do not supply riggers or signalmen.
 - **Start years** are taken from the earliest contract, work order or claim on file. A dash means the start date has not yet been reconciled against a document — we would rather leave it blank than round it.
 - **Crane counts carry the date they were counted.** Numbers move month to month as cranes climb, get dismantled or get added, so we date every figure rather than let one quietly go stale. The last full count was 48 cranes across 15 sites in May 2026; the site list has grown since and has not been re-counted. Current deployment on any specific project is confirmed on request.
 - **Operator strength:** around 50 tower crane operators, as at August 2026.

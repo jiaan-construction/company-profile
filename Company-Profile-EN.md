@@ -1,6 +1,6 @@
 # JIA AN CONSTRUCTION PTE. LTD.
 
-**Tower crane operators and lifting crew for Singapore construction sites**
+**Tower crane operators for Singapore construction sites**
 UEN 202204260G · Incorporated 8 February 2022 · bizSAFE Level 3
 
 ---
@@ -11,7 +11,9 @@ We put MOM-registered tower crane operators on your site and keep them there.
 
 That is the business. Not a side line, not one of five services — it is the whole company. When a main contractor has cranes standing on a project and needs them run properly, on the shift pattern the programme demands, that is the call we take.
 
-Where the scope includes it, we also handle erection, climbing and dismantling, routine maintenance and breakdown response, and we supply riggers and signalmen alongside the operators.
+Around that core: relief and replacement operators, mobilisation planning for new sites, and timesheet and claim support so the monthly billing reconciles against your records.
+
+We do not currently offer crane erection, climbing, dismantling or maintenance, and we do not supply riggers or signalmen. Earlier projects where we did handle erection are marked as such in the [project track record](./Track-Record.md).
 
 **One thing we are upfront about:** on most of our projects the cranes belong to the main contractor. We are not a plant hire company and we don't market ourselves as one. What we bring is the crew, the shift cover, and the compliance paperwork that keeps MOM and your site safety team satisfied.
 
@@ -45,7 +47,7 @@ Full project list: [Track-Record.md](./Track-Record.md)
 
 **One person to call.** You are not routed through a call centre. Site issues, shift changes, timecard disputes — one number, and it gets picked up.
 
-**Paperwork that survives an audit.** Every operator is MOM-registered for the machine they're on. Timecards are signed on site and reconciled monthly against your records before we raise anything. Where we've handled erection and maintenance, inspection and service logs stay with the site file.
+**Paperwork that survives an audit.** Every operator is MOM-registered for the machine they're on. Timecards are signed on site and reconciled monthly against your records before we raise anything.
 
 **Safety, run with your team not against it.** bizSAFE Level 3. Site-specific lifting arrangements agreed with your competent person, daily pre-start checks, toolbox briefings, PPE and rigging gear control, wind-speed cut-off discipline, and anti-collision planning where cranes overlap. We work to your HSE team's permit-to-work system, not a parallel one of our own.
 
@@ -53,12 +55,12 @@ Full project list: [Track-Record.md](./Track-Record.md)
 
 | | Reference | Valid to |
 |---|---|---|
-| bizSAFE Level 3 — WSH Council | Cert. E43636 | 22 Oct 2026 |
+| bizSAFE Level 3 — WSH Council | Cert. E43636 | 22 Oct 2026 — renewal in progress |
 | BCA Registered Contractor — CR01 Minor Construction Works | Single Grade | 1 Nov 2028 |
 | SCAL / SLOTS — CS08 Structural Steel Work | Cert. 23/SM/0367 | 31 Oct 2028 |
 | Work Injury Compensation — China Taiping Insurance (Singapore) | Policy DWCASNA00003152601 | 31 Jan 2027 |
 
-We do not hold ISO 9001, 14001 or 45001. We'd rather say so than let a form imply otherwise. Quality control on our side runs on two things: only MOM-registered operators go on a machine, and every crane we maintain carries its own service and inspection record.
+We do not hold ISO 9001, 14001 or 45001. We'd rather say so than let a form imply otherwise. Quality control on our side runs on two things: only MOM-registered operators go on a machine, and every timecard is signed on site and reconciled before we bill.
 
 Details and certificate copies: [Certifications.md](./Certifications.md)
 
