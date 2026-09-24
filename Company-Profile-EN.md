@@ -19,9 +19,9 @@ We do not currently offer crane erection, climbing, dismantling or maintenance, 
 
 ## Since February 2022
 
-- **23 project sites** across Singapore, 16 of them still running.
-- **13 main contractors**, from Chinese state-owned builders to local HDB specialists.
-- **14 of those 23 sites are with contractors who came back to us** — CHEC five times, Weima Builders four, Chip Eng Seng three, LC&T twice.
+- **24 project sites** across Singapore, 17 of them still running.
+- **14 main contractors**, from Chinese state-owned builders to local HDB specialists.
+- **14 of those 24 sites are with contractors who came back to us** — CHEC five times, Weima Builders four, Chip Eng Seng three, LC&T twice.
 
 That last number is the one we would point at. In this trade, contractors change crane crews when the crew doesn't turn up. Ours do.
 

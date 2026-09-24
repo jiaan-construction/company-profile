@@ -11,10 +11,10 @@ Tower crane operator supply · February 2022 – present
 
 | | |
 |---|---|
-| Project sites since incorporation | **23** |
-| Currently running | **16** |
-| Main contractors served | **13** (joint ventures counted under their lead group) |
-| Sites with repeat clients | **14 of 23** |
+| Project sites since incorporation | **24** |
+| Currently running | **17** |
+| Main contractors served | **14** (joint ventures counted under their lead group) |
+| Sites with repeat clients | **14 of 24** |
 | Cranes deployed | **48 across 15 sites — as recorded May 2026** |
 
 **Repeat clients**
@@ -55,6 +55,7 @@ Tower crane operator supply · February 2022 – present
 | 21 | Ulu Pandan C1 / C2 / Park | CES Engineering & Construction | HDB / BTO | Tower crane operation | 2026 | Ongoing |
 | 22 | Lor Kebasi / Kranji Camp | Fonda Global Engineering | — | Tower crane operation | 2026 | Ongoing |
 | 23 | MH080 Project Savour, Kallang Way | HPC Builders | Industrial | Tower crane operation | 2026 | Completed |
+| 24 | Woodlands Project | Kim Seng Heng | — | Tower crane operation | 2026 | Ongoing |
 
 ---
 
