@@ -13,7 +13,7 @@
 |---|---|
 | Certificate no. | **E43636** |
 | Issued | 23 October 2023 |
-| Valid to | **22 October 2026** |
+| Valid to | **22 October 2026** — renewal in progress |
 | Signed by | Christopher Koh, General Manager, WSH Council |
 
 bizSAFE Level 3 means our risk management plan has been assessed by an approved auditor, not merely that we attended a course. It is the minimum safety threshold most main contractors and public-sector projects require.
@@ -59,7 +59,7 @@ Every worker we deploy is covered. A copy of the certificate is displayed at our
 We would rather write that plainly than tick a box and hope nobody checks. Where a pre-qualification form asks how quality and safety are controlled in the absence of a certified management system, our answer is:
 
 - **Safety** runs on the bizSAFE Level 3 framework — risk management plan, site-specific lifting arrangements, daily pre-start checks, toolbox briefings, PPE and rigging gear control, and coordination with the main contractor's HSE team.
-- **Quality** runs on two hard rules: only MOM-registered operators go on a machine, and every crane under our maintenance carries its own service and inspection record.
+- **Quality** runs on two hard rules: only MOM-registered operators go on a machine, and every timecard is signed on site and reconciled against the main contractor's records before we bill.
 
 **Product accreditation — not applicable.** We are a service subcontractor, not a manufacturer.
 
